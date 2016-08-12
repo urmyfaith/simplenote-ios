@@ -390,6 +390,16 @@
 		F845CA071F946EC947129533F3651BC4 /* ABXBaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F644645874F422F72E51BED78052792 /* ABXBaseListViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F98CBAEFF3BF1F7D2FEC7CABC2DA7130 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4766672B08B8E5D86F5723C056B9326F /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9C193D46A8688FF310A2FE4E7707BD1 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = DD60273603AC27F990EF8F5EACF2BA15 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB8F72FD1D5DB9560017EA2A /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8F72F31D5DB9560017EA2A /* GAI.h */; };
+		FB8F72FE1D5DB9560017EA2A /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8F72F41D5DB9560017EA2A /* GAIDictionaryBuilder.h */; };
+		FB8F72FF1D5DB9560017EA2A /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8F72F51D5DB9560017EA2A /* GAIEcommerceFields.h */; };
+		FB8F73001D5DB9560017EA2A /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8F72F61D5DB9560017EA2A /* GAIEcommerceProduct.h */; };
+		FB8F73011D5DB9560017EA2A /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8F72F71D5DB9560017EA2A /* GAIEcommerceProductAction.h */; };
+		FB8F73021D5DB9560017EA2A /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8F72F81D5DB9560017EA2A /* GAIEcommercePromotion.h */; };
+		FB8F73031D5DB9560017EA2A /* GAIFields.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8F72F91D5DB9560017EA2A /* GAIFields.h */; };
+		FB8F73041D5DB9560017EA2A /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8F72FA1D5DB9560017EA2A /* GAILogger.h */; };
+		FB8F73051D5DB9560017EA2A /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8F72FB1D5DB9560017EA2A /* GAITrackedViewController.h */; };
+		FB8F73061D5DB9560017EA2A /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8F72FC1D5DB9560017EA2A /* GAITracker.h */; };
 		FC2229EA1F76453B3DF753033BB68232 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE0284E4D5520688BCDE0674EE583C8 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCCE3FF836EC3061AF7B41159EC2B82E /* SPSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB96AAFC088F8039472F6E5D36D0216 /* SPSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCED8E0A74F62BFCF79889699E8EABB7 /* ABXVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = D43A3A8F7D8252D39B52BC710F2B3BAE /* ABXVersion.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -976,6 +986,16 @@
 		FA64A50A2D52B55A7AA8C2EE54844A39 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
 		FADD4E7E83ADF172DDC64005A3485439 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/es.lproj"; sourceTree = "<group>"; };
 		FB6EE5DE0BF2310CFEAE0246CA2FEB9A /* 1PasswordExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "1PasswordExtension-prefix.pch"; sourceTree = "<group>"; };
+		FB8F72F31D5DB9560017EA2A /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		FB8F72F41D5DB9560017EA2A /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		FB8F72F51D5DB9560017EA2A /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		FB8F72F61D5DB9560017EA2A /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		FB8F72F71D5DB9560017EA2A /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		FB8F72F81D5DB9560017EA2A /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		FB8F72F91D5DB9560017EA2A /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		FB8F72FA1D5DB9560017EA2A /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		FB8F72FB1D5DB9560017EA2A /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		FB8F72FC1D5DB9560017EA2A /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
 		FC29C4A7173242EC5107D3D6C24FFD36 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
 		FC8288A18655E2192B8650E5C1A7B7A5 /* WordPress-AppbotX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WordPress-AppbotX-dummy.m"; sourceTree = "<group>"; };
 		FCCE0A836F97F9425E0F20D51F70B57A /* Rectangle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Rectangle@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Rectangle@3x.png"; sourceTree = "<group>"; };
@@ -1679,6 +1699,7 @@
 		B28503349C46A33C32DE320CA8337D7B /* GoogleAnalytics */ = {
 			isa = PBXGroup;
 			children = (
+				FB8F72F21D5DB9560017EA2A /* Sources */,
 				1823A48580578B38F483C041EA648755 /* Frameworks */,
 			);
 			name = GoogleAnalytics;
@@ -2035,6 +2056,23 @@
 			name = DiffMatchPach;
 			sourceTree = "<group>";
 		};
+		FB8F72F21D5DB9560017EA2A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FB8F72F31D5DB9560017EA2A /* GAI.h */,
+				FB8F72F41D5DB9560017EA2A /* GAIDictionaryBuilder.h */,
+				FB8F72F51D5DB9560017EA2A /* GAIEcommerceFields.h */,
+				FB8F72F61D5DB9560017EA2A /* GAIEcommerceProduct.h */,
+				FB8F72F71D5DB9560017EA2A /* GAIEcommerceProductAction.h */,
+				FB8F72F81D5DB9560017EA2A /* GAIEcommercePromotion.h */,
+				FB8F72F91D5DB9560017EA2A /* GAIFields.h */,
+				FB8F72FA1D5DB9560017EA2A /* GAILogger.h */,
+				FB8F72FB1D5DB9560017EA2A /* GAITrackedViewController.h */,
+				FB8F72FC1D5DB9560017EA2A /* GAITracker.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2062,8 +2100,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8F72FD1D5DB9560017EA2A /* GAI.h in Headers */,
+				FB8F73001D5DB9560017EA2A /* GAIEcommerceProduct.h in Headers */,
+				FB8F73011D5DB9560017EA2A /* GAIEcommerceProductAction.h in Headers */,
+				FB8F72FF1D5DB9560017EA2A /* GAIEcommerceFields.h in Headers */,
+				FB8F73031D5DB9560017EA2A /* GAIFields.h in Headers */,
 				CDE65BDBE79B0E793A584838E418979B /* 1PasswordExtension-umbrella.h in Headers */,
+				FB8F73041D5DB9560017EA2A /* GAILogger.h in Headers */,
+				FB8F73021D5DB9560017EA2A /* GAIEcommercePromotion.h in Headers */,
+				FB8F73051D5DB9560017EA2A /* GAITrackedViewController.h in Headers */,
+				FB8F72FE1D5DB9560017EA2A /* GAIDictionaryBuilder.h in Headers */,
 				5BF2C17FDB04267B6FC8ECBCF09AB063 /* OnePasswordExtension.h in Headers */,
+				FB8F73061D5DB9560017EA2A /* GAITracker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
