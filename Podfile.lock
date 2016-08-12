@@ -45,7 +45,7 @@ DEPENDENCIES:
   - Automattic-Tracks-iOS (from `https://github.com/Automattic/Automattic-Tracks-iOS.git`, tag `0.1.0`)
   - Crashlytics (= 3.7.0)
   - Fabric (= 1.6.7)
-  - GoogleAnalytics (= 3.14.0)
+  - GoogleAnalytics (from `/Users/zx/Desktop/GoogleAnalytics`)
   - HockeySDK (~> 3.8.0)
   - hoedown (~> 3.0.3)
   - Simperium (= 0.8.16)
@@ -58,6 +58,8 @@ EXTERNAL SOURCES:
   Automattic-Tracks-iOS:
     :git: https://github.com/Automattic/Automattic-Tracks-iOS.git
     :tag: 0.1.0
+  GoogleAnalytics:
+    :path: /Users/zx/Desktop/GoogleAnalytics
   WordPress-AppbotX:
     :commit: 479d05f7d6b963c9b44040e6ea9f190e8bd9a47a
     :git: https://github.com/wordpress-mobile/appbotx.git
@@ -76,7 +78,7 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
   Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
   Fabric: caf7580c725e64db144f610ac65cd60956911dc7
-  GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
+  GoogleAnalytics: c001768ad14e8775633027c4966032d608faa9a7
   HockeySDK: ab68303eec6680f6b539de65d747742dd276e934
   hoedown: c1327bbbc96d269595ed86bf97f1d09867ec7529
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
@@ -87,6 +89,6 @@ SPEC CHECKSUMS:
   WordPress-AppbotX: b5abc0ba45e3da5827f84e9f346c963180f1b545
   WordPress-Ratings-iOS: b04108f7a45867844ba47a240bb6295ca747eebf
 
-PODFILE CHECKSUM: 85792041d567f2099884924acdc40b1a646f6b91
+PODFILE CHECKSUM: ded800a831d1f0cceef4de90fe16f620d0c6c5d0
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.beta.1
