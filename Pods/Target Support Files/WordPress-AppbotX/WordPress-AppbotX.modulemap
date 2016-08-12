@@ -1,0 +1,6 @@
+framework module WordPress_AppbotX {
+  umbrella header "WordPress-AppbotX-umbrella.h"
+
+  export *
+  module * { export * }
+}

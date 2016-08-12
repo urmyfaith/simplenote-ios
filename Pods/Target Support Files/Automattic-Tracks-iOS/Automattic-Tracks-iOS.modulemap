@@ -1,0 +1,6 @@
+framework module AutomatticTracks {
+  umbrella header "Automattic-Tracks-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module WordPress_Ratings_iOS {
+  umbrella header "WordPress-Ratings-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
